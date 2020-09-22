@@ -3,28 +3,33 @@
 
 Global {
   edge=bottom
-  allign=left
+  align=left
   margin=0
   widthtype=percent
   width=100
-  height=36
+  height=26
   transparent=0
   tintcolor=#000000
   alpha=0
   setdocktype=1
   setpartialstrut=1
+  autohide=0
+  heightwhenhidden=0
   usefontcolor=1
-  fontcolor=#000000
-  background=0
-  backgroundfile=/usr/share/lxpanel/images/lubuntu-background.png
-  iconsize=36
-  usefontsize=1
-  fontsize=20
+  fontcolor=#ffffff
+  background=1
+  backgroundfile=/usr/share/lxpanel/images/background.png
+}
+Plugin {
+  type=space
+  Config {
+    Size=2
+  }
 }
 Plugin {
   type=menu
   Config {
-    image=/home/friendlysicoach/.themes/Micro95/win95s.0.gif
+    image=/usr/share/lxde/images/lxde-icon.png
     system {
     }
     separator {
@@ -55,6 +60,13 @@ Plugin {
   type=space
   Config {
     Size=4
+  }
+}
+Plugin {
+  type=wincmd
+  Config {
+    Button1=iconify
+    Button2=shade
   }
 }
 Plugin {
@@ -92,19 +104,21 @@ Plugin {
   }
 }
 Plugin {
-  type=tray
+  type=cpu
   Config {
   }
 }
 Plugin {
-  type=indicator
+  type=volume
   Config {
-    applications=1
-    datetime=0
-    messages=0
-    network=0
-    session=0
-    sound=0
+    VolumeMuteKey=XF86AudioMute
+    VolumeDownKey=XF86AudioLowerVolume
+    VolumeUpKey=XF86AudioRaiseVolume
+  }
+}
+Plugin {
+  type=tray
+  Config {
   }
 }
 Plugin {
@@ -121,7 +135,10 @@ Plugin {
   type=launchbar
   Config {
     Button {
-      id=/usr/share/applications/lubuntu-logout.desktop
+      id=lxde-screenlock.desktop
+    }
+    Button {
+      id=lxde-logout.desktop
     }
   }
 }

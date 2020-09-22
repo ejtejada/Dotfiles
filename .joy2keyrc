@@ -1,0 +1,9 @@
+COMMON
+-X
+-dev /dev/input/js0
+-thresh 0 0 0 0 0 0 0 0
+
+START citra-qt
+-X
+-buttons r r r r r r r r r h h
+-axis r r r r r r r r

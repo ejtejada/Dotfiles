@@ -1,5 +1,5 @@
 ! Xft settings ---------------------------------------------------------------
 
-Xft.dpi: 144
-Xcursor.theme: Vanilla-DMZ-AA
-Xcursor.size: 108
+Xft.dpi: 108
+Xcursor.theme: Large Mouse Cursors
+Xcursor.size: 96

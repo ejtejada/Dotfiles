@@ -361,7 +361,7 @@
           <enabled>true</enabled>
           <name>File manager</name>
         </startupnotify>
-        <command>lxsession-default file_manager</command>
+        <command>pcmanfm</command>
       </action>
     </keybind>
     <!-- Keybindings for running Run menu from Lxpanel on Home + R-->
@@ -398,19 +398,19 @@
     <!-- Launch task manager on Ctrl + Alt + Del-->
     <keybind key="C-A-Delete">
       <action name="Execute">
-        <command>lxsession-default tasks</command>
+        <command>lxtask</command>
       </action>
     </keybind>
     <!-- Launch task manager on Ctrl + Alt + BackSpace-->
     <keybind key="C-A-BackSpace">
       <action name="Execute">
-        <command>lxsession-default tasks</command>
+        <command>lxtask</command>
       </action>
     </keybind>
     <!-- Launch a terminal on Ctrl + Alt + T-->
     <keybind key="C-A-T">
       <action name="Execute">
-        <command>lxsession-default terminal</command>
+        <command>lxterminal</command>
       </action>
     </keybind>
     <!-- Launch a filemanager on Ctrl + Alt + D-->
@@ -420,13 +420,13 @@
           <enabled>true</enabled>
           <name>PCManFM</name>
         </startupnotify>
-        <command>lxsession-default file_manager</command>
+        <command>pcmanfm</command>
       </action>
     </keybind>
     <!-- Lock the screen on Ctrl + Alt + l-->
     <keybind key="C-A-l">
       <action name="Execute">
-        <command>lxsession-default lock</command>
+        <command>lxlock</command>
       </action>
     </keybind>
     <!-- Keybinding for Volume management -->
@@ -463,12 +463,12 @@
     <!-- Keybinding for terminal button-->
     <keybind key="XF86WWW">
       <action name="Execute">
-        <command>lxsession-default terminal</command>
+        <command>lxterminal</command>
       </action>
     </keybind>
     <keybind key="XF86Terminal">
       <action name="Execute">
-        <command>lxsession-default terminal</command>
+        <command>lxterminal</command>
       </action>
     </keybind>
     <!-- Keybinding for calculator button-->
@@ -480,7 +480,7 @@
     <!-- Keybinding for computer button-->
     <keybind key="XF86MyComputer">
       <action name="Execute">
-        <command>lxsession-default file_manager</command>
+        <command>pcmanfm</command>
       </action>
     </keybind>
     <!-- Keybindings for Multimedia Keys and LCD Backlight (alternative when not using gnome-power-manager or xfce4-volumed) -->
@@ -502,7 +502,7 @@
     <!-- Launch scrot when Print is pressed -->
     <keybind key="Print">
       <action name="Execute">
-        <command>lxsession-default screenshot</command>
+        <command>scrot</command>
       </action>
     </keybind>
     <!-- Launch logout when push on the shutdown button -->
