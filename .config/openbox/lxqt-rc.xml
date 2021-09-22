@@ -367,12 +367,12 @@
     <!-- Keybindings for running Run menu from Lxpanel on Home + R-->
     <keybind key="W-r">
       <action name="Execute">
-        <command>lxsession-default launcher</command>
+        <command>lxqt-runner</command>
       </action>
     </keybind>
     <keybind key="A-F2">
       <action name="Execute">
-        <command>lxsession-default launcher</command>
+        <command>lxqt-runner</command>
       </action>
     </keybind>
     <!-- Keybindings for running Menu from Lxpanel -->
@@ -850,7 +850,7 @@
     <!-- You can specify more than one menu file in here and they are all loaded,
        just don't make menu ids clash or, well, it'll be kind of pointless -->
     <!-- default menu file (or custom one in $HOME/.config/openbox/) -->
-    <file>/usr/share/lxde/openbox/menu.xml</file>
+    <file>/usr/share/lubuntu/openbox/menu.xml</file>
     <file>menu.xml</file>
     <hideDelay>200</hideDelay>
     <!-- if a press-release lasts longer than this setting (in milliseconds), the

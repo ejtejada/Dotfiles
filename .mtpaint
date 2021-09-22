@@ -1,0 +1,12 @@
+# Remove this file to restore default settings.
+
+undoMBlimit = 2048
+window_w = 1920
+window_h = 995
+toolbar_settings_y = 60
+toolbar_settings_x = 282
+toolbar3 = false
+jpegQuality = 75
+lastTextFont = Sans 12
+textString = Disparity
+pngCompression = 6

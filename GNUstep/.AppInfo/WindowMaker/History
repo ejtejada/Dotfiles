@@ -1,0 +1,11 @@
+(
+  pcmanfm,
+  pcmanfm,
+  "firefox --private-window",
+  pxmanfm,
+  "firefox --private-window -P",
+  lxterminal,
+  geany,
+  pavucontrol,
+  lxterminak
+)

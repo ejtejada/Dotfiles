@@ -1,0 +1,11 @@
+{
+  firefox.Firefox = {
+    Icon = firefox.Firefox.xpm;
+  };
+  groupLeader.WPrefs = {
+    Icon = groupLeader.WPrefs.xpm;
+  };
+  lxterminal.Lxterminal = {
+    Icon = lxterminal.Lxterminal.xpm;
+  };
+}
